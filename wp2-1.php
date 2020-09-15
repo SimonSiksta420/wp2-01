@@ -1,6 +1,5 @@
   
 <?php
- 
  $submit = filter_input(INPUT_POST, 'submit');
  $spz = filter_input(INPUT_POST, 'spz');
  $auto = filter_input(INPUT_POST, 'auto');
