@@ -3,14 +3,14 @@
  $submit = filter_input(INPUT_POST, 'submit');
  $spz = filter_input(INPUT_POST, 'spz');
  $auto = filter_input(INPUT_POST, 'auto');
- $types = array('Auto', 'Autobus','Karavan','Trolejbus');
+ $types = array('Auto', 'Autobus','Dodávka','Nákladní automobil');
  ?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Prodej aut</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
@@ -36,12 +36,6 @@ if (isset($submit)) { ?>
 <br> <input type="submit" name="submit" value="Odeslat">
 </form>
 <?php } ?>
-    
-
-
-
-
-
 </form>
 </body>
 </html>
